@@ -1,0 +1,59 @@
+.ttl {
+    color: black;
+    font-family: verdana;
+    font-size: 244%;
+    text-align-last: center;
+    margin-top: 88px;
+    
+}
+
+.wall {
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+    margin-left: 165px;
+    background-color: rgb(158, 158, 158);
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    border-radius: 5px;  
+      
+}
+.song_1 {
+    
+    font-size: 12px;
+    margin-top: 55px;
+    margin-left: 177px;
+    background-color:white;
+    width: 250px;
+    height: 355px;
+    border-radius: 25px;
+}
+
+.song_2 {
+    font-size: 12px;
+    margin-top: 55px;
+    margin-left: 50px;
+    background-color:white;
+    width: 250px;
+    height: 355px;
+    border-radius: 25px;
+}
+.song_3 {
+    font-size: 12px;
+    margin-top: 55px;
+    margin-left: 50px;
+    background-color:white;
+    width: 250px;
+    height: 355px;
+    border-radius: 25px;
+}
+.song_4{
+    font-size: 12px;
+    margin-top: 55px;
+    margin-left: 50px;
+    background-color:white;
+    width: 250px;
+    height: 355px;
+    border-radius: 25px;
+}

@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+        <body>
+            
+            <h1 class="ttl">
+                The dthd album
+             
+            </h1>
+            <div class="wall">
+                <div class="song_1" >
+                    <h1>Mad bout that</h1>
+                    <img src="mad.jpg" id="icon1" height="250px">
+
+                    <audio id="song1">
+                        <source src="mbt.mp3" type="audio/mp3">
+                    </audio>
+                    
+                  </div>
+                <div class="song_2" >
+                    <h1>Semi</h1>
+                    <img src="semi.jpg" id="icon2" height="250px">
+                    <audio id="song2">
+                        <source src="semi1.mp3" type="audio/mp3">
+                    </audio>
+                    </div>
+                <div class="song_3" >
+                    <h1>Take</h1>
+                    <img src="take.jpg" id="icon3" height="250px">
+                    <audio id="song3">
+                        <source src="take1.mp3" type="audio/mp3">
+                    </audio>
+                    </div>
+                <div class="song_4" >
+                    <h1>Told ya</h1>
+                    <img src="told_ya.jpg" id="icon4" height="250px">
+                    <audio id="song4">
+                        <source src="toldya1.mp3" type="audio/mp3">
+                    </audio>
+                    </div>
+            </div>
+<script>
+              {  var song1 = document.getElementById("song1");
+                var icon = document.getElementById("icon1");
+
+                icon.onclick = function(){
+                    if(song1.paused){
+                        song1.play();
+                    }
+                        if(song1.play){
+                        song1.paused();
+                        }
+                  
+                    } 
+
+                }
+                { 
+                    var song2 = document.getElementById("song2");
+                var icon = document.getElementById("icon2");
+
+                icon.onclick = function(){
+                    if(song2.paused){
+                        song2.play();
+                    }
+                        if(song2.play){
+                        song2.paused();
+                        }
+                  
+                    } 
+                }  
+                { 
+                    var song3 = document.getElementById("song3");
+                var icon = document.getElementById("icon3");
+
+                icon.onclick = function(){
+                    if(song3.paused){
+                        song3.play();
+                    }
+                        if(song3.play){
+                        song3.paused();
+                        }
+                  
+                    } 
+                }  
+                { 
+                    var song4 = document.getElementById("song4");
+                var icon = document.getElementById("icon4");
+
+                icon.onclick = function(){
+                    if(song4.paused){
+                        song4.play();
+                    }
+                        if(song4.play){
+                        song4.paused();
+                        }
+                  
+                    } 
+                }  
+</script>
+        </body>
+    </head>
+</html>
